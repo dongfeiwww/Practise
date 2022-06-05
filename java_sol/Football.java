@@ -35,8 +35,5 @@ public class Football {
   public static void main(String[] args) {
     int[] input = {2,3,7};
     System.out.println(numWays2(input, 7));
-  //  System.out.println(numWays2(input, 4));
-  //  System.out.println(numWays2(input, 5));
-  //  System.out.println(numWays2(input, 6));
   }
 }

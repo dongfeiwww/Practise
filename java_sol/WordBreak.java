@@ -65,14 +65,4 @@ public class WordBreak {
 //    memo.put(s, result);
 //    return result;
 //  }
-
-  public static void main(String[] args) {
-    WordBreak wb = new WordBreak();
-    Set<String> dict = new HashSet<String>();
-    dict.add("a");
-    dict.add("aaa");
-    dict.add("is");
-    dict.add("name");
-    System.out.println(wb.minWordBreak("aaaisname", dict));
-  }
 }
